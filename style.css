@@ -1,0 +1,40 @@
+body {
+    text-align:center;
+    background-color:palegreen;
+}
+    .container {
+    text-align: center;
+}
+img {
+    height:500px;
+    width:1000px;
+}
+h1 {
+    font-size:30px;
+    font-family:fantasy;
+}
+.line {
+    height: 6px;
+    background-color:black;
+    width: 70px;
+    margin: 8px auto;
+}
+.menu{
+    position:fixed;
+    margin-top:0px;
+    background:white;
+    width:100%;
+    z-index: 10;
+    top:0px;
+}
+.links{
+    display:inline;
+    padding-left:33px;
+    padding-right:25px;
+    font-size:20px;
+    font-family:fantasy;
+}
+.links:hover{
+    font-size:30px;
+    text-decoration:underline;
+}
